@@ -6,7 +6,7 @@ Git Guide
 **Getting Started**
 For me, git was never really taught too well even though I am studying at a high ranked university, hence, I am making a document that basically summerizes the most important steps to setting up your git and github
 
-`git init` (initialize a branch) initializing a branch can be thought of like creating a folder. Git will track all your changes and then 
+`git init` (initialize a branch) initializing a branch can be thought of like creating a folder. Git will track all your changes.
 
 `git config --global init.defaultBranch <name> `(configure the initial branch name) here you can change the name of your branch, usually it is set to 'master' or 'main' at first. 
 
