@@ -1,9 +1,9 @@
 # Hello Yall
-### This is a guide that I made for myself to better understand git; however, if you somehow found yourself on this page, welcome!
+### **This is a guide that I made for myself to better understand git; however, if you somehow found yourself on this page, welcome!**
 
 Git Guide
 
-**Getting Started**
+#### Getting Started
 
 For me, git was never really taught too well even though I am studying at a high ranked university, hence, I am making a document that basically summerizes the most important steps to setting up your git and github
 
@@ -19,7 +19,7 @@ Once you are inside of a new folder, run `git init` that way git can track the c
 
 `git checkout main` (this command will take you to the latest commit within the main branch) this command can help you get back to the latest commit inside your main branch. Lets say you get a bit too lost in the sauce, just use this. If you arent in the main branch, use whatever branch name you are in, duhhh.
 
-**How to add and modifiy your remote repo**
+##### **How to add and modifiy your remote repo**
 Now, first thing first repo stands for repository just like calc stands for calculator. Repo's are cool becuase thats how you show off all your cool projects, well assuming you make it public.
 
 *First, make sure you create your repo in Github, do this by clicking the little plus sign in the upper right corner and select **New Repository**, give it a name and create*
@@ -39,3 +39,4 @@ There are many ways to add your modified files to your next commit:
 
 `git push -u origin main` this command will push your commit to your remote repo. After entering this command you can go to your repo and see the changes you have made, pretty cool right!
 
+#### Branching
