@@ -40,3 +40,16 @@ There are many ways to add your modified files to your next commit:
 `git push -u origin main` this command will push your commit to your remote repo. After entering this command you can go to your repo and see the changes you have made, pretty cool right!
 
 ### Branching
+
+`git branch <branch_name>` This will create a new branch
+
+`git checkout <branch_name>` Use this to move around your branches
+
+If you want to create a branch and immediatly enter it, use this:
+
+`git checkout -b <feature-branch>`
+
+Keep in mind that the new branch you create will contain the code of the place you are branching from. If I am on branch_v2 and I make another branch called branch_v3, it will contain the code from branch_v2 and nothing else, the code from my main branch will not transfer over unless you specify it through: `git branch <newBranch> <sourceBranch>`
+
+
+
