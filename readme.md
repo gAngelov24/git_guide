@@ -3,7 +3,7 @@
 
 Git Guide
 
-**Getting Started**
+**Getting Started\n**
 For me, git was never really taught too well even though I am studying at a high ranked university, hence, I am making a document that basically summerizes the most important steps to setting up your git and github
 
 
