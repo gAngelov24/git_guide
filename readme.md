@@ -4,6 +4,7 @@
 Git Guide
 
 **Getting Started**
+
 For me, git was never really taught too well even though I am studying at a high ranked university, hence, I am making a document that basically summerizes the most important steps to setting up your git and github
 
 `git init` (initialize a branch) initializing a branch can be thought of like creating a folder. Git will track all your changes.
@@ -29,7 +30,9 @@ Now, first thing first repo stands for repository just like calc stands for calc
 
 There are many ways to add your modified files to your next commit:
 `git add file.name` you add a single file by using git add and the file name ex. `git add main.c`
+
 `git add ./` you can also add all the files you have modified in your directory using this command
+
 `git add -A` lastly, you can use git add -A to add all changes you have made, keep in mind this includes files outside of your current directory
 
 `git commit -m 'message'` finally, you are commiting your work, congrats! This is the equivalant of saving your code under a new name called file_v1 except this way all you need to do it type a simple command.
