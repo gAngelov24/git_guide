@@ -51,5 +51,6 @@ If you want to create a branch and immediatly enter it, use this:
 
 Keep in mind that the new branch you create will contain the code of the place you are branching from. If I am on branch_v2 and I make another branch called branch_v3, it will contain the code from branch_v2 and nothing else, the code from my main branch will not transfer over unless you specify it through: `git branch <newBranch> <sourceBranch>`
 
+When you return to your main branch, you will notice that the changes you have made in your feature branch have not been implemented in your main code yet. In order to implement your branch, you will have to create a pull request in github, and then in your main branch, you will have to call `git fetch` and then `git merge` only after fetching and then merging will your changes be made in main.
 
 
